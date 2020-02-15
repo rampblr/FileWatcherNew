@@ -52,17 +52,7 @@ shutdown_method=winmessage</pre>
 			body #primary .entry-content ul#nextuplist li a {text-decoration:none;color:#1d55a9;}
 		</style>
 <div class="nextup">
-<span id="nextuplabel" style="font-weight: bold;
-					    font-size: 22px;
-					    color: #000;
-					    margin-bottom: 10px;
-					    display: block;">READ NEXT</span>
-<ul id="nextuplist">
-<li>› <a href="https://www.howtogeek.com/509071/how-to-add-move-to-or-copy-to-to-windows-10s-context-menu/">How to Add “Move to” or “Copy to” to Windows 10’s Context Menu</a></li>
-<li>› <a href="https://www.howtogeek.com/656879/no-cable-required-how-to-stream-the-nba-all-star-game/">No Cable Required: How to Stream the NBA All-Star Game</a></li>
-<li>› <a href="https://www.howtogeek.com/657255/how-to-set-a-default-zoom-level-in-firefox/">How to Set a Default Zoom Level in Firefox</a></li>
-<li>› <a href="https://www.howtogeek.com/529219/how-to-parse-json-files-on-the-linux-command-line-with-jq/">How to Parse JSON Files on the Linux Command Line with jq</a></li>
-<li>› <a href="https://www.howtogeek.com/657476/the-future-of-phones-what-is-foldable-glass/">The Future of Phones: What Is Foldable Glass?</a></li>
-</ul>
+
+
 </div>
 </div>
