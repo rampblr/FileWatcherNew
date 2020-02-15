@@ -5,7 +5,7 @@ To run an app as a service, you’re going to need a small, third-party utility.
 
 To get started, head over to the SrvStart download page and grab the utility. The download contains just four files (two DLL and two EXE files). There’s no installer; instead, copy these to your computer’s C:\Windows folder these to your main Windows folder to “install” SrvStart.
 
-
+<img src="https://www.howtogeek.com/wp-content/uploads/2016/05/aas_4.png" />
 
 We’re also going to assume that you’ve already installed and set up whatever program you’re going to turn into a service, but if you haven’t, now would be a good time to do that too.
 
