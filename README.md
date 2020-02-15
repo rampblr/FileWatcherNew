@@ -19,14 +19,14 @@ startup="C:\Program Files (x86)\Plex\Plex Media Server\Plex Media Server.exe"
 shutdown_method=winmessage
 Obviously, adjust the path and name according to the program you’re launching.
 
-aas_1_v2
+<img class="alignnone size-large wp-image-253534" alt="aas_1_v2" width="650" height="198" src="https://www.howtogeek.com/wp-content/uploads/2016/05/xaas_1_v2-650x198.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.v4MnYQ5Yle.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
 
 Save the new configuration file wherever you like, and replace the .txt extension with a .ini extension. Make note of the file name, since we’ll need it in the next step. For ease of typing at the Command Prompt, we suggest saving this file temporarily right on your C: drive.
 
 Step Three: Use the Command Prompt to Create the New Service
 Your next step is using the Windows Service Controller (SC) command to create the new service based on the criteria in your configuration file. Open Command Prompt by right-clicking the Start menu (or pressing Windows+X), choosing “Command Prompt (Admin)”, and then clicking Yes to allow it to run with administrative privileges.
 
-tl_start
+<img class="alignnone size-full wp-image-253532" alt="tl_start" width="325" height="638" src="https://www.howtogeek.com/wp-content/uploads/2016/05/xtl_start.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.xfg3Eu2IXg.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
 
 At the Command Prompt, use the following syntax to create the new service:
 
@@ -40,10 +40,10 @@ Yes, you read that right: I used C:PlexService.ini instead of C:\PlexService.ini
 
 When you run the command, you should receive a SUCCESS message if everything goes well.
 
-aas_2
+<img class="alignnone size-large wp-image-253537" alt="aas_2" width="650" height="213" src="https://www.howtogeek.com/wp-content/uploads/2016/05/aas_2-650x213.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
 
 From this point on, your new service will run whenever Windows starts. If you open the Windows Services interface (just click Start and type “Services”), you can find and configure the new service just like you would any other.
 
-aas_3
+<img class="alignnone size-large wp-image-253539" alt="aas_3" width="650" height="384" src="https://www.howtogeek.com/wp-content/uploads/2016/05/xaas_3-650x384.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.h3d3KQ86Jr.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
 
 And that’s all there is to it. If you have apps that start with Windows and you’d rather they start without needing a user to log in, it’s easy enough to turn any app into a service. We’ve only just touched on the basic method for creating and running a new service, but there’s a lot more you can do with SrvStart to fine tune how a service runs. Be sure to check out the documentation if you’d like to learn more.
